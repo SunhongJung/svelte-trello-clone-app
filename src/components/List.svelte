@@ -62,8 +62,6 @@
                     card={card}
                     on:editMode={disableSortable} />
             {/each}
-            <div class="card"></div>
-            <div class="card"></div>
         </div>
         <CreateCard 
             listId={list.id} 
